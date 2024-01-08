@@ -769,8 +769,11 @@ html.is-blue-bg #header {
 #header-right {
     position: relative;
     display: flex;
-    gap: 10.5em;
+    gap: 26px;
     will-change: transform
+}
+.social a {
+    padding: 10px;
 }
 
 #header-right-sound-btn {
@@ -2589,7 +2592,22 @@ button#footer-newsletter-input-arrows {
     position: absolute;
     right: 0;
     padding: 20px;
+} 
+.social a img{
+    width: 25px;
 }
+.social div {
+    margin: 8px 2px;
+    display: inline-block;
+}
+svg.about-award-header-svg {
+    width: 60px;
+    height: 41px;
+}
+p.classtextabout {
+    display: inline-block !important;
+    margin: 0;
+ }
 
 #home-featured-cta-text {
     position: relative;
