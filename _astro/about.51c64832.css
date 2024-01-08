@@ -634,6 +634,13 @@ html.is-ready #preloader {
     #preloader-percent-digits {
         font-size: 13vw
     }
+    #about-who-desc-bottom { 
+        font-size: 22px;
+    }
+    .classtextabout
+    { 
+        font-size: 22px;
+    }
 
     div#about-who-title-main-scroll {
         position: absolute;
@@ -655,7 +662,7 @@ html.is-ready #preloader {
         margin: 8px;
     }
     .about-award-header-title { 
-        font-size: 2em;
+        font-size: 2em !important;
     }
     a#header-logo img { 
         max-width: 48px;
@@ -2578,6 +2585,11 @@ html.is-blue-bg #scroll-indicator-bar {
     z-index: 1;
     transition: background cubic-bezier(.35, 0, 0, 1) .5s, transform cubic-bezier(.35, 0, 0, 1) .4s
 }
+button#footer-newsletter-input-arrows {
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
 
 #home-featured-cta-text {
     position: relative;
@@ -3015,8 +3027,17 @@ html.is-black-bg #home-goal {
     #about-who-title-left {
         position: relative;
         bottom: auto;
-        top: var(--base-padding-y);
+        top: 75px;
         margin-top: 1em
+    }
+    #about-who-desc-top {
+    margin-top: calc(clamp(3rem, 1vw, 2rem) * 2 + var(--base-padding-y)) !important; 
+    }
+    .about-award-header-number { 
+        top: -2px !important;
+    }
+    div#about-capability-cards-wrapper li {
+        font-size: 17px;
     }
 }
 
